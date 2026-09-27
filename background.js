@@ -7,7 +7,7 @@
 const EXPIRY_MS = 10 * 60 * 60 * 1000; // 10 hours
 
 // ── Relay config — replace with your deployed Railway URL ────
-const RELAY_WS_URL = 'ws://98.92.203.9:3001';
+const RELAY_WS_URL = 'wss://relay.vhagar.online';
 const RELAY_SECRET = '60o5Ihbg8ODRLaAiWx7mwcsQtBEzGe4Y'; // must match server RELAY_SECRET env var
 
 // ── Auth check ───────────────────────────────────────────────
