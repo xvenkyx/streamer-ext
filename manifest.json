@@ -9,7 +9,7 @@
     "https://meet.google.com/*",
     "https://chatgpt.com/*",
     "https://claude.ai/*",
-    "ws://98.92.203.9:3001/*"
+    "wss://relay.vhagar.online/*"
   ],
 
   "action": {
@@ -49,6 +49,6 @@
   },
 
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self'; connect-src ws://98.92.203.9:3001"
+    "extension_pages": "script-src 'self'; object-src 'self'; connect-src wss://relay.vhagar.online"
   }
 }
